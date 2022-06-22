@@ -3,13 +3,13 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: cadetblue;
+    background: #5f9ea0;
     font-family: 'Chakra Petch', sans-serif;
 }
 .bd{
-    border: white;
+    border: #ffffff;
     height: 47px;
-    background: cadetblue;
+    background: #5f9ea0;
     width: 100%;
     border-style: solid;
     padding-top: 5px;
@@ -20,7 +20,7 @@ body{
 .bd i{
     font-size: 25px;
     margin-right: 8px;
-    border: white;
+    border: #ffffff;
     border-style: solid;
     width: 35px;
     height: 30px;
