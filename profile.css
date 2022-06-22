@@ -3,13 +3,14 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #5f9ea0;
+    background: #7c5388;
     font-family: 'Chakra Petch', sans-serif;
+    color: #ffffff;
 }
 .bd{
     border: #ffffff;
     height: 47px;
-    background: #5f9ea0;
+    background: #7c5388;
     width: 100%;
     border-style: solid;
     padding-top: 5px;
@@ -29,6 +30,7 @@ body{
     border-radius: 10px;
     transition: .3s;
     z-index: 3;
+    color: #ffffff;
 }
 .bar{
     position: absolute;
@@ -47,6 +49,10 @@ body{
     font-size: 15px;
     outline: none;
     cursor: pointer;
+    border: none;
+}
+.about,.block,.book{
+    color: #ffffff;
 }
 
 .bd a.active .bar{
@@ -98,6 +104,25 @@ a.active i{
     width: 340px;
     height: 300px;
 }
+.topic button{
+    width: 125px;
+    height:50px;
+    cursor: pointer;
+    background:#ffffff;
+    border:none;
+    font-size:22px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #7c5388;
+    font-weight: 50px;
+
+}
+.bar button{
+    background: #ac95b3;
+
+   }
+.bar button:active{
+    background: #706175;
+}
 
 @media screen and (min-width: 700px){
     .list{
@@ -114,6 +139,21 @@ a.active i{
         transition: .4s;
     
     }
+    .bar button:active{
+        background: none;
+    }
+    .bar button:hover{
+        text-decoration: underline;
+        text-decoration-color: #ffffff;
+        text-decoration-thickness: 3px;
+        transition: .4s;
+    }
+  
+    .topic button:hover{
+        width: 150px;
+        transition: all .4s;
+        }
+
     .bar button{
         background: none;
         border: none;
@@ -129,8 +169,12 @@ a.active i{
         text-align: right;
         padding-right: 200px;
     }
+    
     .info h3{
         font-size: 35px;
+    }
+    .bd a.active .bar{
+        top: 0;
     }
     .info{
         margin-top: -330px;
@@ -143,6 +187,7 @@ a.active i{
    .brmobile{
     display: none;
    }
+   
    .pic img{
     width: 240px;
     height: 320px;
@@ -180,6 +225,7 @@ a.active i{
     .map img{
         width: 500px;
         height: 400px;
+        margin-left: 150px;
     }
 
 }
