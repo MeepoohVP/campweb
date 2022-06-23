@@ -3,14 +3,14 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #7c5388;
+    background: #612378;
     font-family: 'Chakra Petch', sans-serif;
     color: #ffffff;
 }
 .bd{
     border: #ffffff;
     height: 47px;
-    background: #7c5388;
+    background: #612378;
     width: 100%;
     border-style: solid;
     padding-top: 5px;
@@ -112,7 +112,7 @@ a.active i{
     border:none;
     font-size:22px;
     font-family: 'Chakra Petch', sans-serif;
-    color: #7c5388;
+    color: #612378;
     font-weight: 50px;
 
 }
